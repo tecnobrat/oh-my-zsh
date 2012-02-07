@@ -1,6 +1,6 @@
 #RVM settings
 if [[ -s ~/.rvm/scripts/rvm ]] ; then 
-  RPS1="%{$fg[yellow]%}rvm:%{$reset_color%}%{$fg[red]%}\$(~/.rvm/bin/rvm-prompt)%{$reset_color%} $EPS1"
+  RPS1="%{$fg[red]%}[\$(~/.rvm/bin/rvm-prompt i v g p s)]%{$reset_color%} $EPS1"
 fi
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}%{$fg[green]%}["
